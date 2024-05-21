@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+.blog {
+  margin: 5px;
+}
+h1 {
+  color: red;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  text-align: justify;
+  padding-left: 90px;
+  padding-right: 90px;
+  text-indent: 20px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.tombol ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  margin-right: 90px;
+  margin-top: 50px;
+}
+.tombol li {
+  display: flex;
+  text-decoration: none;
+  font-size: 30px;
+}
+.tombol li a {
+  color: white;
+  text-decoration: none;
+}
+.tombol li a:hover {
+  color: red;
+  transition: 1s;
+}
